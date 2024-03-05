@@ -3,109 +3,55 @@
 }
 
 header {
-    position: relative;
-    height: 100%;
-    width: 100%; /* Добавьте это свойство */
-   
-}
-
-
-
-.subheader {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    height: 100vh; 
-}
-
-/* LOGO */
-@keyframes logoAnimation {
-    0% { transform: scale(0); } /* начальное состояние - логотип полностью сжат */
-    100% { transform: scale(1); } /* конечное состояние - логотип возвращается к исходному размеру */
-}
-
-.subheader .subheader_logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.subheader .subheader_logo img {
-    margin-top: 35px;
-    width: 600px;
-    height: auto;
-    letter-spacing: 1px;
-    z-index: 9;
-    animation: logoAnimation 3s ease-in-out 1s forwards; /* используем анимацию ключевых кадров */
-    filter: brightness(110%); /* увеличиваем яркость на 50% */
-}
-
-.subheader:hover .subheader_logo img {
-    transform: scale(1); /* это свойство больше не нужно, так как мы используем анимацию ключевых кадров */
-}
-   
- 
-
-/* .subheader .subheader_official {
-    margin-top: 0;
-    opacity: 0.5;
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: 400;
-    max-width: 100%; */
-}  */
-
-nav {
-    position: fixed; 
+    position: fixed;  
     width: 100%; 
-    height: 50px;
-    background-color: #ffffff;
-   /*  z-index: 2;  */
+    height: 150px;
+    z-index: 100; /* Убедитесь, что заголовок всегда находится над другими элементами */
 }
+
+
 .menu {
-    margin-top: 50px; /* Задайте отступ от верхних элементов */
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
     display: flex;
-    /* padding: 13px 70px; */
-    list-style-type: none;
+    align-items: center;
+    margin-top: 0;
+    justify-content: space-between;
     font-style: normal;
+    list-style-type: none;
     font-weight: bold;
-     /* Добавьте это свойство с нужным значением */
 }
 
 .menu .menu_link {
     color: #000000;
     font-size: 40px;
-    font-weight: 300px;
-    margin: 50px;
-}
-.subheader .subheader_call {
-    
-    display: flex;
-    
-    text-align: right;
-    color: #ffffff; */
-    font-size: 12px;
-    font-weight: 300;
-    margin-top: 0;
-    text-align: 
-    z-index: 5; 
+    margin: 0 100px; /* Измените это свойство */
+    list-style-type: none;
 }
 
-.subheader .subheader_phone {
-    display: flex;
-    margin-left: 0;  *//* Добавьте это свойство */
-    margin-top: 8px;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
-    /* text-align: right; */
-    line-height: 12px;
-} 
+.header_logo img {
+    width: 300px;
+    height: auto;
+}
 
-.subheader_call, .subheader_phone {
-    text-align: right;
+/* .header:hover .header_logo img {
+    transform: scale(1);
+}
+ */
+.button {
+    display: inline-block;
+    background-color: #2155a3a1; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 14px 20px;  /* Отступы внутри кнопки */
+    margin: 0;  /* Отступы вокруг кнопки */
+    border: none; /* Убираем рамку */
+    cursor: pointer; /* Делаем курсор в виде руки при наведении */
+    width: auto; /* Ширина кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    /* transition-duration: 0.4s;  *//* Длительность эффекта наведения */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    border-radius: 5px; /* Добавьте это свойство */
+}
+
+.button:hover {
+    background-color: 2155a3a1; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
 }
