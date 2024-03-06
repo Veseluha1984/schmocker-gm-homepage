@@ -91,17 +91,12 @@
 .button:hover {
     background-color: 2155a3a1; /* Цвет фона при наведении */
     color: white; /* Цвет текста при наведении */
-}
-    color: #000000;
-    font-size: 28px;
-    margin: 0 40px 0 20px; /* Измените это свойство */
     list-style-type: none;
 }
+    
 
-/* .menu .menu_item, .menu .menu_item_kontakt {
-    display: inline-block;
-   /*  margin-left: 20px; */ */
-}
+
+
 
 .menu .menu_item_kontakt {
     margin-left: 200px;

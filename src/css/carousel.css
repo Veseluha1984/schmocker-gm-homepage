@@ -32,8 +32,8 @@
 
 .prev, .next {
     position: absolute;
-    top: 48%;
-    left: 420px;
+    top: 50%;
+    left: 350px;
     right: auto; /* Добавлено */
     position: absolute;
     transform: translateY(-50%);
@@ -50,7 +50,7 @@
 }
 
 .next {
-    right: 420px; /* Добавлено */
+    right: 350px; /* Добавлено */
     left: auto; /* Добавлено */
 }
 

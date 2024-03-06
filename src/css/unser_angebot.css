@@ -1,0 +1,28 @@
+.unserangebot .my-flex-container-unserangebot {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 40px;
+    justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+    height: 500px;
+	width: 100%;  
+   
+    
+}
+
+.my-flex-block-foto-unserangebot img {
+	/* display: flex; */
+	margin: 10px 10px 10px 10px;
+	width: 450px;
+    height: 450px; 
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	color: #000000;
+	font-size: 32px;
+	font-weight: bold;
+}
