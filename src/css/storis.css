@@ -1,0 +1,29 @@
+.my-flex-container {
+    margin-top: 30px;
+    display: flex;
+    height: 100px;
+    /* justify-content: space-around; */ */
+    align-content: stretch;;
+    /* align-items: center; */
+
+}
+
+.my-flex-block-foto, .my-flex-block-text {
+   
+    
+}
+
+.my-flex-block-text {
+    width: auto; /* Изменено на 100% */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0 20px 0 0 ;
+    text-align: justify;
+}
+
+.my-flex-block-foto img {
+    width: 500px;
+    height: auto; 
+    margin: 0 50px 0 200px ;
+   
+}

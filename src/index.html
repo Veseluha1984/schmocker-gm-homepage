@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="css/storis.css">
         <link rel="stylesheet" href="css/menu.css">
-
-        
     </head>
+    
     <header>
         <ul class="menu">
             <li class="header_logo">
@@ -27,38 +27,30 @@
             <li class="menu_item_kontakt"><a href="#require" class="menu_link button">Kontakt</a></li>
         </ul>
     </header>
-    <section class="subheader">
+    <!-- <section class="subheader">
         <div class="container">
             <div class="farbe">
             </div>
             </div>
-       <!--  <script>window.onscroll = function() {myFunction()};
-
-                function myFunction() {
-                    var subheaderFarbe = document.querySelector('.subheader .farbe');
-                    if (window.pageYOffset > 100) { // Замените 50 на значение, после которого вы хотите начать прокрутку
-                        subheaderFarbe.style.position = 'fixed';
-                        subheaderFarbe.style.top = '0';
-                    } else {
-                        subheaderFarbe.style.position = 'static';
-                    }
-                }
-        </script> 
-        
-    </section>
-   <!-Карусель -->
+      
+    </section> -->
+   
+   
+          <!--   Карусель -->
 
 
     
 
 
 <section class="carousel">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade"></div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> 
     <!-- Индикаторы карусели -->
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
     </ol>
     <!-- Слайды карусели -->
     <div class="carousel-inner">
@@ -72,7 +64,7 @@
         </div>
         <!-- Второй слайд -->
         <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1708000590735-6aee991a7b29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxODY2Nzh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3MjU0Nzd8&ixlib=rb-4.0.3&q=80&w=1080" class="d-block w-100" alt="Второе изображение">
+            <img src="https://images.unsplash.com/photo-1709418359735-9cf3b793558d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxODY2Nzh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3Mjk1MzR8&ixlib=rb-4.0.3&q=80&w=1080" class="d-block w-100" alt="Второе изображение">
             <div class="carousel-caption d-none d-md-block">
                 <h5>second slide</h5>
                 <p>slide description.</p>
@@ -80,9 +72,17 @@
         </div>
         <!-- Третий слайд -->
         <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1708533548050-16703eff12ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxODY2Nzh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3MjU1MTN8&ixlib=rb-4.0.3&q=80&w=1080" class="d-block w-100" alt="Третье изображение">
+            <img src="https://images.unsplash.com/photo-1708000590735-6aee991a7b29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxODY2Nzh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3MjU0Nzd8&ixlib=rb-4.0.3&q=80&w=1080" class="d-block w-100" alt="Второе изображение">
             <div class="carousel-caption d-none d-md-block">
                 <h5>third slide</h5>
+                <p>slide description.</p>
+            </div>
+        </div>
+        <!-- Четвертый слайд -->
+        <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1708533548050-16703eff12ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxODY2Nzh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3MjU1MTN8&ixlib=rb-4.0.3&q=80&w=1080" class="d-block w-100" alt="Третье изображение">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>fourth slide</h5>
                 <p>slide description.</p>
             </div>
         </div>
@@ -91,17 +91,32 @@
     <!-- Кнопки управления каруселью -->
 <a class="prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Предыдущий</span>
+    <span class="sr-only">prev</span>
 </a>
 <a class="next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Следующий</span>
+    <span class="sr-only">next</span>
 </a>
 </div>
+
+    <div class="my-flex-container">
+        <div class="my-flex-block-foto"><img src="https://images.unsplash.com/photo-1707553698151-1de38e7ac919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxODY2Nzh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3MjU0MTN8&ixlib=rb-4.0.3&q=80&w=1080" alt="Описание изображения"></div>
+        <div class="my-flex-block-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam suscipit quae similique impedit expedita laborum eius, aspernatur nostrum, amet numquam doloribus est id ipsum sint at quasi, optio alias nihil!
+        Vitae id repellendus blanditiis non excepturi iusto quibusdam quas, suscipit cupiditate laboriosam ad quod quia, eum ut adipisci sunt ullam aliquid veritatis laborum quae, maiores eligendi optio quidem. Natus, cumque.
+        Alias earum dolorem, officia accusantium ut culpa maxime laudantium incidunt unde. Quasi deleniti porro maiores, tempora ea natus blanditiis et voluptates exercitationem est voluptatum, expedita omnis. Ex quo eligendi sint.
+        Cumque nam cum eius aliquam. Inventore ullam, excepturi, qui eligendi facere necessitatibus odit eos soluta beatae, corporis dolore ad in repellendus fugit labore asperiores ab vero deleniti at libero aliquid.
+        Cumque, beatae repudiandae distinctio harum, ratione iusto ducimus voluptas voluptate dicta facilis impedit laudantium! Hic placeat alias perferendis repudiandae voluptatem corporis reprehenderit, in, ab asperiores voluptatum quibusdam consequatur provident molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis aperiam necessitatibus officiis vel, amet facilis eveniet harum optio accusamus consequuntur autem corporis odit. Pariatur quae eaque praesentium nisi corrupti.
+        Quam omnis nobis sapiente explicabo asperiores placeat deserunt dolores culpa impedit molestiae ab, doloremque praesentium quidem deleniti commodi repudiandae ea, voluptates 
+        </div>
+    </div>
+
+
+  
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+   
+            
 
 </html>
