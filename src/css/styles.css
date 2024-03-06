@@ -82,17 +82,22 @@
     margin-top: 0;
     background-color: rgba(165, 157, 157, 0.212);
 } */
+/* body {
+    display: flex;
+    justify-content: center;
+} */
 
-
-/* Stile für das Karussell angeben */
-.carousel {
-    margin-top: 150px;
-    width:auto ;
-    height: 500px; /* Вы можете изменить это значение в зависимости от ваших потребностей */
+.carousel-inner {
+    margin: 0 auto; /* Центрируем карусель */
+    padding-top: 130px; 
+    width:900px; 
+    height: 700px; /* Вы можете изменить это значение в зависимости от ваших потребностей */
 }
 
+/* Остальной код остается без изменений */
+
 .carousel-item {
-    width: 50%;
+    width: 100%;
     height: 100%;
     position: relative;
     
