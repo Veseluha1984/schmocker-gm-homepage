@@ -1,4 +1,4 @@
-<script>window.onscroll = function() {myFunction()};
+{/* <script>window.onscroll = function() {myFunction()};
 
 function myFunction() {
     var subheaderFarbe = document.querySelector('.subheader .farbe');
@@ -11,4 +11,4 @@ function myFunction() {
 }
 </script> 
 
-</section>
+</section> */}
