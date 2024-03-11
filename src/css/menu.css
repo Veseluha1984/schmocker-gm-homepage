@@ -7,19 +7,19 @@
 }
 
 
-.menu {
+/* .menu {
     position: fixed;  
     display: flex;
     align-items: center;
     font-style: normal;
     list-style-type: none;
     font-weight: bold;
-    background-color: rgba(165, 157, 157, 0.212);
+    background-color: rgba(165, 157, 157, 1);
     top: 0;
     width: 100%; 
     height: 140px;
     z-index: 100;
-}
+} */
 
 .menu .menu_link .header {
     /* position: fixed;   */
@@ -37,7 +37,7 @@
     font-style: normal;
     list-style-type: none;
     font-weight: bold;
-    background-color: rgba(165, 157, 157, 0.212);
+    background-color: rgb(255, 255, 255);
     top: 0;
     width: 100%; 
     height: 120px;
