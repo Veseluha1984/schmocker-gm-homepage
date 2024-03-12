@@ -1,13 +1,13 @@
 .unserangebot .my-flex-container-unserangebot {
     display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
     justify-content: center;
-	align-items: flex-start;
-	align-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
     height: 500px;
-	width: 100%;  
+    width: 100%; 
    
     
 }
@@ -15,8 +15,9 @@
 .my-flex-block-foto-unserangebot img {
 	/* display: flex; */
 	margin: 10px 10px 10px 10px;
-	width: 450px;
-    height: 450px; 
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
 }
 
 h1 {
