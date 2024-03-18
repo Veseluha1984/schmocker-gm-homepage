@@ -1,15 +1,15 @@
 .unserangebot .my-flex-container-unserangebot {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-wrap: wrap; 
+    flex-direction: row;  
     margin-top: 40px;
-    justify-content: center;
+    justify-content: center; 
     align-items: flex-start;
-    align-content: flex-start;
+    align-content: flex-start; 
     height: 500px;
-    width: 100%; 
+    width: 100%;  
    
-    
+     
 }
 
 .my-flex-block-foto-unserangebot img {
