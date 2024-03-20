@@ -1,0 +1,354 @@
+@media (max-width: 1900px) {
+   .input-row {
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px; */
+       /*  margin: 0px; */
+               
+    }
+    .allpagekontakt {
+        /* display: flex; */
+        width: 100%;
+        height: 500px; 
+    }
+    .name, .email, .message {
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .message .message-input {
+        margin: 5px 220px;
+        /* position: relative; */
+       /*  width: 100%; */
+       
+        
+    }
+    .name {
+        margin-right: 100px; */
+        justify-content: space-between;
+        align-items: flex-start; */
+    }
+    .email {
+        display: flex;
+        margin-left: 100px;
+      /*   justify-content: space-between; */
+       align-items: flex-end; 
+    }
+
+    .name-input {
+        align-items: flex-start;
+    }
+    .email-input, .email-label {
+        align-items: flex-end;
+    }   
+    .email-label {
+         justify-content: flex-end;
+}
+    .kontakt-form {
+        display: flex;
+        width: 1000px;
+        /* justify-content: center;
+        align-items: center; */
+       /*  margin: 0 10px; */
+       
+    }
+    .message {
+        height: 200px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .message-input {
+        margin: 0 ;
+       /*  position: relative; */
+        
+        width: 1000px;
+        height: 200px;
+        align-items: center;
+        
+    }
+    .message-label {
+        margin: 20px 0 0 0;
+        align-items: center;
+    }
+    .button-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .submit-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        
+        
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1630px) {
+    .kontakt-form, .input-row, .message{
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .name, .email .message {    
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+             
+    }
+
+    
+    /* .input-row .name {
+        margin-right: 0;
+    }
+
+    .name, .email, .message {
+        display: flex;
+        margin-left: 0;
+        align-items: flex-start; 
+    }
+
+    .name-input {
+        align-self: flex-start;
+    }
+
+    .email-input, .email-label {
+        align-self: flex-start;
+    }   
+
+   
+    .name-label, .email-label, .message-label {
+        justify-content: flex-start;
+        align-self: flex-start
+    }
+
+    .message .message-input {
+        margin: 0;
+        align-self: flex-start;
+    }
+
+    .message {
+        margin: 30px 0 0 0;
+        align-self: flex-start;
+    }
+    
+    .label .email-label {
+        margin: 0 0 0 5px;
+        text-align: left;
+    }
+    .message-label {
+        margin: 40px 0 0 5px;
+        text-align: left;
+    } */
+    
+    
+    
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    .header_logo img  {
+        height: 30px;
+        width: auto;
+}
+    li.header_logo {
+        margin: 10px 0 ; 
+ 
+    }
+    .hamburger {
+        display: none; 
+    }
+}
+@media (max-width: 1200px) {
+    .input-row {
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+        
+       
+    }
+   
+   
+   
+   
+   
+   
+    .header_logo img  {
+        height: 50px;
+        width: auto;
+    }
+
+    
+    ul.menu {
+        height: 55px;
+        padding: 0px ;
+        margin-top: 0;
+    }
+
+    
+    .menu .menu_link {
+        color: #000000;
+        font-size: 16px;
+        margin: 0 40px 0 20px; /* Измените это свойство */
+        list-style-type: none;
+    }
+}
+ 
+
+/*    .container  section .carousel {
+        display: flex;
+        justify-content: center;
+    } */
+
+
+
+    @media (max-width: 992px) {
+    
+
+    @media (max-width: 767px) {
+        .header_logo img  {
+                height: 30px;
+                width: auto;
+        }
+    
+        ul.menu {
+            height: 10px;
+            padding: 20px 15px;
+            
+        }
+        .menu .menu_link {
+            color: #000000;
+            font-size: 10px;
+            list-style-type: none;
+            color: #000000;
+            margin: 0 20px 0 10px; /* Измените это свойство */
+            list-style-type: none;
+        }
+        section .carousel {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .prev, .next, .carousel-caption {
+            display: none;
+        }
+    
+        .carousel-item img, .carousel-item.active img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
+        }
+    }
+        
+    
+    @media (max-width: 576px) {
+    ul.menu { 
+            position: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            top: 0;
+            left: -100%;   
+            width: 60%;
+            height: 100vh;
+            padding: 20px 15px;
+            background-color: rgba(0, 0, 0, .8);
+            transition: 0.6s all; 
+            margin-top: 0;
+        }
+    
+    ul.menu_active {
+            left: 0;
+        }  
+    
+    .menu .hamburger {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 1000;
+        width: 20px;
+        height: 20px;
+       /*  margin-top: 10px; */
+    }
+    
+    .hamburger span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 2px;
+        transition: 0.5s all; 
+    }
+    
+    .hamburger_active span {
+        margin-bottom: -2px;
+    }
+    
+    .hamburger_active span:nth-child(1) {
+        transform: translateY(2px) rotate(-45deg);
+    }
+    
+    .hamburger_active span:nth-child(2) {
+        display: none;
+    }
+    
+    .hamburger_active span:nth-child(3) {
+        transform: translateY(2px) rotate(45deg);
+    }
+    
+    
+    .header_logo img {
+        height: 60px;
+        width: auto;
+        margin-top: 0;
+    }
+    
+    .menu .menu_item, .menu .menu_item_kontakt, .menu .menu_link {
+        color: #ffffff;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    section .carousel {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .prev, .next, .carousel-caption {
+        display: none;
+    }
+    
+    .carousel-item img, .carousel-item.active img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
+    }
+    div .my-flex-block-text {
+        font-size: 8px;
+    }
+    } 
+    

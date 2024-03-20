@@ -1,30 +1,78 @@
-.kontakt-container {
+.allpagekontakt {
     display: flex;
-    /* margin-top: 20px; */
-    /* justify-content: center; */
-    align-items: center;
-    width: auto;
-    height: 550px;
+   /*  flex-direction: column; */
+   /*  align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; */
     background-color: #f4f4f4;
+}
+
+div.kontakt-info {
+    display: flex; 
+    margin: 150px 0 200px 50px;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+div.kontakt-form {
+    height: 100px;
+    width: 100%;
+}
+
+.name-label, .email-label, .message-label {
     font-size: 16px;
     font-weight: bold;
     color: #333;
 }
 
-.kontakt-page {
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name-label, .name-input {
+    margin-right: 10px;
+}
+
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email-label, .email-input {
+    margin-right: 10px;
+}
+
+
+
+
+
+/* .kontakt-page {
     display: flex;
     height: 100%;
     background-color: #f4f4f4;
 }
-
+ */
 .kontakt-info {
-   display: inline;
-    margin: 170px 0 200px 50px; 
-    width: 350px;
+    /* display: flex; */
+    margin: 10px 0 200px 50px; 
+    width: 330px;
     height: 230px; 
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
@@ -33,13 +81,38 @@ h2 {
     font-weight: bold;
     color: #333;
     padding:  0 0 20px 0;
+    align-items: center;
+    text-align: center;
+
 }
 
+div.kontaktformall {
+    display: flex;
+    margin: 20px 20px 300px 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 10000px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
 
 .kontakt-form {
-    display: inline;
-    margin: 150px 0 0 100px;
-    flex-wrap: wrap;
+    margin: 150px 0 20px 100px;
+   /*  flex-wrap: wrap; */
+    height: 100px;
+    width: 60%;
+    flex-direction: column;
+
+/* .kontakt-form {
+    margin: 150px 0 300px 100px;
+   /*  flex-wrap: wrap; */
     height: 350px;
     width: 60%;
     flex-direction: column;
@@ -78,20 +151,25 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+
+
+
+
 .message {
     display: flex;
-    width: 1100px;
+    width: 1220px;
     height: 270px;
 
 }
 .message-label {
     width: 75px;
     height: 40px; 
-    margin: 130px 5px 0 0;
+    margin: 130px 38px 0 0;
 }
 
 .message-input {
-    width: 860px;
+    width: 1300px;
     height: 200px;
     margin: 40px 5px 20px 90px;
     border: 1px solid #ccc;
@@ -99,13 +177,24 @@ h2 {
     overflow: auto;
 }
 
+
+
+
+
 .submit-button {
+    
     width: 100px;
     height: 40px;
-    margin: 0 0 0 550px;
+    margin: 10px auto  10px 680px; 
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  /*   right: -50% */
+} 
+
+.footer {
+    height: 100px;
+    width: ;
 }

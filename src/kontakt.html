@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Kontakt</title>
-        <link rel="shortcut icon" href="img/SGM_Logo-1024x390.png" type="image/png">
-        <!-- Подключение CSS файла -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/menu.css">
-        <link rel="stylesheet" href="css/kontakt.css">
-        <link rel="stylesheet" href="css/kontakt_footer.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kontakt</title>
+    <link rel="shortcut icon" href="img/SGM_Logo-1024x390.png" type="image/png">
+    <!-- Подключение CSS файла -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/kontakt_footer.css">
+    <link rel="stylesheet" href="css/media_kontakt.css"> 
+</head>
+
+<body>
+    <sectior class="kontakt-page-container">
         <div class="kontakt-page">
             <header>
                 <ul class="menu">
-                    <li class="header_logo">
-                        <a href="index.html" class="menu_link">
-                            <img src="img/SGM_Logo-1024x390.png" alt="logo">
-                        </a>
-                    </li>
+                    <li class="header_logo"><a href="index.html" class="menu_link"><img src="img/SGM_Logo-1024x390.png"
+                                alt="logo"></a></li>
                     <li class="menu_item"><a href="#require" class="menu_link">Planung</a></li>
                     <li class="menu_item"><a href="#require" class="menu_link">Bauleitung</a></li>
                     <li class="menu_item"><a href="#require" class="menu_link">Realisierung</a></li>
-                    <li class="menu_item_kontakt"><a href="#require" class="menu_link button">Kontakt</a></li>
+                    <li class="menu_item_kontakt"><a href="kontakt.html" class="menu_link button">Kontakt</a></li>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </ul>
             </header>
-            <div class="kontakt-container">
-                <div class="kontakt-info">
-                    <h2>Schmocker Gebäudemanufaktur AG</h2>
-                    <p>Hochstettweg 4, 5452 Oberrohrdorf</p>
-                    <p>+41 79 622 33 34</p>
-                    <p>lukas@schmocker-gm.ch</p>
-                </div>
-                <form class="kontakt-form" action="/send_email" method="post">
-                    <div class="input-row">
+        </div>
+    </sectior>
+    <div class="allpagekontakt">
+        <container class="kontaktinfo">
+            <div class="kontakt-info">
+                <h2>Schmocker Gebäudemanufaktur AG</h2>
+                <p>Hochstettweg 4, 5452 Oberrohrdorf</p>
+                <p>+41 79 622 33 34</p>
+                <p>lukas@schmocker-gm.ch</p>
+            </div>
+        </container>
+        <container class="kontaktform>
+        <!-- <container class="kontaktformall"></container> -->
+            <form class="kontakt-form" action="/send_email" method="post">
+                <div class="input-row">
+                    <div class="name">
                         <label for="name" class="name-label">Vor- und Nachname</label>
                         <input type="text" id="name" name="name" class="name-input" required>
+                    </div>
+                    <div class="email">
                         <label for="email" class="email-label">E-Mail Adresse </label>
                         <input type="email" id="email" name="email" class="email-input" required>
                     </div>
-                    <div class="message">
-                        <label for="message" class="message-label">Nachricht</label>
-                        <textarea id="message" name="message" class="message-input" required></textarea>
-                    </div>
+                </div>
+                <div class="message">
+                    <label for="message" class="message-label">Nachricht</label>
+                    <textarea id="message" name="message" class="message-input" required></textarea>
+                </div>
+                <div class="button-section">
                     <input type="submit" value="Senden" class="submit-button">
-                </form>
-                
-            </div>
-        
+                </div>
+            </form>
         </div>
-        <footer class="footer">
-            <div class="footer map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.309821801791!2d8.316268176691764!3d47.425401800472244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479012ff657b1015%3A0x523d8c7b1aeb46ec!2sHochstettweg%204%2C%205452%20Oberrohrdorf!5e0!3m2!1sru!2sch!4v1710240733421!5m2!1sru!2sch" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            <div class="footer_info"></div>
-        </footer>
-    </body>
+        </container>
+
+    </div>
+    <footer class="footer">
+        <div class="footer map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.309821801791!2d8.316268176691764!3d47.425401800472244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479012ff657b1015%3A0x523d8c7b1aeb46ec!2sHochstettweg%204%2C%205452%20Oberrohrdorf!5e0!3m2!1sru!2sch!4v1710240733421!5m2!1sru!2sch"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="footer_info"></div>
+    </footer>
+    <script src="JS/menu.js"></script>
+
+</body>
+
 </html>

@@ -1,56 +1,152 @@
 
 @media (max-width: 1630px) {
+    
+
     li.header_logo {
-        margin: 10px 0 ; /* Добавьте это свойство */
+        margin: 10px 0 ; 
  
     }
     .hamburger {
         display: none; 
     }
+    .prev, .next {
+        display: none;
+    }
+
+    div .my-flex-block-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
 }
+
+
+
+
     @media (max-width: 1200px) {
-    .header_logo img  {
+        .header_logo img  {
             height: 50px;
-            weight: auto;
+            width: auto;
+        }
+
+        .carousel-inner {
+            margin: 10px auto;
+
+        ul.menu {
+            height: 55px;
+            padding: 0px ;
+            margin-top: 0;
+        }
+
+        .carousel-slide {
+            display: flex;
+            justify-content: center;
+            /* margin-top: 70px; */
+           /*  width: 100%;
+            height: 100%;  *//* Вы можете изменить это значение в зависимости от ваших потребностей */
+             */
+                     */
+        }
+        
+       /*  .carousel-inner {
+|           
+            width: 100%;
+            height: 100%;  
+             
+        }
+ */
+        .menu .menu_link {
+            color: #000000;
+            font-size: 16px;
+            margin: 0 40px 0 20px; /* Измените это свойство */
+            list-style-type: none;
+        }
+    
+     
+
+    /*    .container  section .carousel {
+            display: flex;
+            justify-content: center;
+        } */
+
+        .prev, .next, .carousel-caption {
+            display: none;
+        }
+
+        . .carousel-item .carousel-item img, .carousel-item.active img {
+            width: 100%;
+            height: 100%; 
+            justify-content: center; 
+            object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
+        }
+        div .my-flex-block-text {
+            font-size: 12px;
+        }
+
+        .my-flex-block-foto img {
+            display: flex; */
+             align-items: center; 
+             justify-content: center;
+             width: 100%;
+             height: 500px;
+             object-fit: cover;
+             /* margin: 0 10px; */
+         }
+    }
+
+
+    @media (max-width: 992px) {
+        div .my-flex-block-text {
+            font-size: 10px;
+        }
+
+        .my-flex-block-foto img {
+            display: flex; */
+            align-items: center; 
+            justify-content: center;
+            width: 100%;
+           /*  height: 500px; */
+            object-fit: cover;
+            /* margin: 0 10px; */
+         }
+    }
+
+
+    @media (max-width: 767px) {
+    .header_logo img  {
+            height: 30px;
+            width: auto;
     }
 
     ul.menu {
         height: 10px;
         padding: 20px 15px;
-        margin-top: 5px;
-    }
-
-    .carousel-inner {
-        margin: 50px auto; 
-    }
-
-    .menu .menu_link {
-        color: #000000;
-        font-size: 16px;
-        /* margin: 0 40px 0 20px; /* */ Измените это свойство */
-        list-style-type: none;
-    }
-}
-    
-@media (max-width: 767px) {
-.header_logo img  {
-            height: 30px;
-            weight: auto;
-    }
-
-ul.menu {
-        height: 10px;
-        padding: 20px 15px;
         
     }
-.menu .menu_link {
+    .menu .menu_link {
         color: #000000;
         font-size: 10px;
-        /* margin: 0 40px 0 20px; /* */ Измените это свойство */
+        list-style-type: none;
+        color: #000000;
+        margin: 0 20px 0 10px; /* Измените это свойство */
         list-style-type: none;
     }
-.carousel-inner {
-        margin: 50px auto; 
+    section .carousel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .prev, .next, .carousel-caption {
+        display: none;
+    }
+
+    .carousel-item img, .carousel-item.active img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
     }
 }
     
@@ -126,4 +222,21 @@ ul.menu_active {
     font-size: 16px;
     margin: 20px 0;
 }
-}   
+section .carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.prev, .next, .carousel-caption {
+    display: none;
+}
+
+.carousel-item img, .carousel-item.active img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
+}
+div .my-flex-block-text {
+    font-size: 8px;
+}
+} 

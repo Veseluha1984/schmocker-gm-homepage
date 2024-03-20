@@ -1,11 +1,12 @@
-/* .header {
+/* /* .header {
     /* position: fixed;   */
-    top: 0;
+/*         top: 0;
+    } // Add this closing curly brace
     width: auto; 
     height: 120px;
     z-index: 100;
-} */
-
+ */
+ */
 
 /* .menu {
     position: fixed;  
