@@ -1,5 +1,21 @@
 
+@media (max-width: 1780px) {
+    
+    .my-flex-block-foto-unserangebot img {
+        width: 360px;
+        height: 360px;
+    }
+    
+    
+    
+}
 @media (max-width: 1630px) {
+
+    
+.header_logo img {
+    width: auto;
+    height: 120px;
+}
     
 
     li.header_logo {
@@ -21,10 +37,20 @@
         margin-top: 20px;
         font-size: 16px;
     }
+}        
+   
+
+
+
+@media (max-width: 1430px) {
+    
+    .my-flex-block-foto-unserangebot img {
+        width: 320px;
+        height: 320px;
+    }
+    
+    
 }
-
-
-
 
     @media (max-width: 1200px) {
         .header_logo img  {
@@ -32,9 +58,10 @@
             width: auto;
         }
 
-        .carousel-inner {
-            margin: 10px auto;
-
+       .carousel-inner {
+            width: 900px; 
+            height: 100%;
+       }
         ul.menu {
             height: 55px;
             padding: 0px ;
@@ -95,6 +122,26 @@
              object-fit: cover;
              /* margin: 0 10px; */
          }
+         .my-flex-block-foto-unserangebot {
+       
+            flex-shrink: 0;
+        }
+        .unserangebot .unserangebotfoto {
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .my-flex-block-foto-unserangebot  {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+
+        }
     }
 
 
@@ -116,6 +163,9 @@
 
 
     @media (max-width: 767px) {
+
+      
+
     .header_logo img  {
             height: 30px;
             width: auto;
@@ -148,10 +198,45 @@
         height: 100%;
         object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
     }
+    div .my-flex-block-text {
+        font-size: 8px;
+    }
+.my-flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+container .my-flex-container {
+        margin-top: 0;
+    }
+div.carousel-inner {
+        margin: 40px auto;
+    }
+.my-flex-block-text {
+        margin: 0;
+    }
+div .my-flex-containe {
+        margin: 0;
+        padding: 0;
+    }
+.my-flex-block-foto, div.my-flex-block-text {
+        
+        margin: 0;
+        padding: 0;
+} 
+.my-flex-block-foto img {
+        
+        margin: 20px 0;
+    }
 }
     
 
 @media (max-width: 576px) {
+
+
+
 ul.menu { 
         position: fixed;
         flex-direction: column;
@@ -173,70 +258,68 @@ ul.menu_active {
     }  
 
 .menu .hamburger {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 1000;
-    width: 20px;
-    height: 20px;
-   /*  margin-top: 10px; */
-}
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 1000;
+        width: 20px;
+        height: 20px;
+    /*  margin-top: 10px; */
+    }
 
 .hamburger span {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #000000;
-    margin-bottom: 2px;
-    transition: 0.5s all; 
-}
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 2px;
+        transition: 0.5s all; 
+    }
 
 .hamburger_active span {
-    margin-bottom: -2px;
-}
+        margin-bottom: -2px;
+    }
 
 .hamburger_active span:nth-child(1) {
-    transform: translateY(2px) rotate(-45deg);
-}
+        transform: translateY(2px) rotate(-45deg);
+    }
 
 .hamburger_active span:nth-child(2) {
-    display: none;
-}
+        display: none;
+    }
 
 .hamburger_active span:nth-child(3) {
-    transform: translateY(2px) rotate(45deg);
-}
+        transform: translateY(2px) rotate(45deg);
+    }
 
 
 .header_logo img {
-    height: 60px;
-    width: auto;
-    margin-top: 0;
-}
+        height: 60px;
+        width: auto;
+        margin-top: 0;
+    }
 
 .menu .menu_item, .menu .menu_item_kontakt, .menu .menu_link {
-    color: #ffffff;
-    font-size: 16px;
-    margin: 20px 0;
-}
+        color: #ffffff;
+        font-size: 16px;
+        margin: 20px 0;
+    }
 section .carousel {
-    display: flex;
-    justify-content: center;
-}
+        display: flex;
+        justify-content: center;
+    }
 
 .prev, .next, .carousel-caption {
-    display: none;
-}
+        display: none;
+    }
 
 .carousel-item img, .carousel-item.active img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Это свойство гарантирует, что изображения будут масштабироваться так, чтобы заполнить область карусели, сохраняя при этом свои пропорции */
+    }
+
 }
-div .my-flex-block-text {
-    font-size: 8px;
-}
-} 

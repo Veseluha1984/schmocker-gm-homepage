@@ -1,20 +1,45 @@
 .allpagekontakt {
     display: flex;
-   /*  flex-direction: column; */
-   /*  align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%; */
     background-color: #f4f4f4;
+    height: 600px ;
+    width: 100%;
+}
+
+
+
+
+div.kontaktformall {
+    display: flex;
+    margin: 200px 20px 300px 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    /* background-color: #f4f4f4; */
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #333; */
+    padding: 5px;
+    box-shadow: 0;
+    border-radius: 5px;
+}
+    
+div .kontaktinfo {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
 div.kontakt-info {
     display: flex; 
-    margin: 150px 0 200px 50px;
+    margin: 170px 0 0 50px;
     justify-content: center; 
     align-items: center;
-    width: 100%;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     background-color: #ffffff;
     font-size: 16px;
     font-weight: bold;
@@ -86,29 +111,10 @@ h2 {
 
 }
 
-div.kontaktformall {
-    display: flex;
-    margin: 20px 20px 300px 100px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    height: 10000px;
-    background-color: #f4f4f4;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    padding: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
 
-.kontakt-form {
-    margin: 150px 0 20px 100px;
-   /*  flex-wrap: wrap; */
-    height: 100px;
-    width: 60%;
-    flex-direction: column;
+
+
+    
 
 /* .kontakt-form {
     margin: 150px 0 300px 100px;
@@ -116,7 +122,7 @@ div.kontaktformall {
     height: 350px;
     width: 60%;
     flex-direction: column;
-}
+
 
 .kontakt-form .input-row {
     height: 40px;
@@ -177,7 +183,13 @@ div.kontaktformall {
     overflow: auto;
 }
 
-
+div .button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 200px;
+    }
 
 
 
@@ -185,7 +197,7 @@ div.kontaktformall {
     
     width: 100px;
     height: 40px;
-    margin: 10px auto  10px 680px; 
+    margin: 10px 0; 
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -196,5 +208,5 @@ div.kontaktformall {
 
 .footer {
     height: 100px;
-    width: ;
+   
 }

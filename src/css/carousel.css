@@ -1,4 +1,6 @@
 .carousel-inner {
+    display: flex;
+    align-items: center;
     margin: 110px auto; /* Центрируем карусель */
    /*  margin-top: 110px;  */
     width: 1100px; 
