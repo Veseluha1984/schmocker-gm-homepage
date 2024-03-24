@@ -1,0 +1,31 @@
+.unserereferenzenfoto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center; */
+    /* align-items: flex-start; */
+        align-content: center;
+    }
+    height: 100%;
+    width: 100%; 
+    ;
+}
+
+.my-flex-block-foto-unserereferenzen img {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    width: 450px;
+    height: 450px;
+    object-fit: cover; 
+    justify-content: center;
+  /*   justify-content: space-around; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+}

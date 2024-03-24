@@ -1,3 +1,4 @@
+
 /* /* .header {
     /* position: fixed;   */
 /*         top: 0;
@@ -138,4 +139,238 @@ li.header_logo {
 .button:hover {
     background-color: 2155a3a1; /* Цвет фона при наведении */
     color: white; /* Цвет текста при наведении */
+}
+
+.allpagekontakt {
+    display: flex;
+    background-color: #f4f4f4;
+    height: 600px ;
+    width: 100%;
+}
+
+
+
+
+div.kontaktformall {
+    display: flex;
+    margin: 200px 20px 300px 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    /* background-color: #f4f4f4; */
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #333; */
+    padding: 5px;
+    box-shadow: 0;
+    border-radius: 5px;
+}
+    
+div .kontaktinfo {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+div.kontakt-info {
+    display: flex; 
+    margin: 50px 0 0 50px;
+    justify-content: center; 
+    align-items: center;
+    width: 380px;
+    height: 180px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+div.kontakt-form {
+    height: 100px;
+    width: 100%;
+}
+
+.name-label, .email-label, .message-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-right: 85px;
+}
+
+.name-label, .name-input {
+    margin-right: 10px;
+}
+
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email-label, .email-input {
+    margin-right: 10px;
+}
+
+
+
+
+
+/* .kontakt-page {
+    display: flex;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+ */
+.kontakt-info {
+    /* display: flex; */
+    margin: 10px 0 200px 50px; 
+    width: 250px;
+    height: 150px; 
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding:  0 0 10px 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+    
+
+/* .kontakt-form {
+    margin: 150px 0 300px 100px;
+   /*  flex-wrap: wrap; */
+    height: 350px;
+    width: 60%;
+    flex-direction: column;
+
+
+.kontakt-form .input-row {
+    height: 40px;
+    width: 100%;
+}
+
+.input-row .name-label {
+    width: 150px;
+    height: 40px; 
+    margin: 5px 5px 0 0;
+}
+
+.input-row .name-label, .input-row .email-label, .input-row {
+    display: flex;
+    align-items: center;
+   
+}
+
+.input-row  {
+    display: flex;
+    align-content: center;
+    justify-content: spase-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: auto;
+}
+
+.input-row .email-label {
+    width: 125px;
+    height: 40px; 
+    margin-left: 50px;
+    margin: 5px 5px 0 0;
+}
+
+
+
+.input-row .name-input,  {
+    width: 219px;
+    height: 40px;
+    
+    margin: 5px 5px 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-row .email-input, .input-row .name-input {
+    width: 219px;
+    height: 40px;
+   
+    margin: 5px 5px 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+.message {
+    display: flex;
+    width: 1220px;
+    height: 270px;
+
+}
+.message-label {
+    width: 26px;
+    height: 40px; 
+    margin: 130px 38px 0 0;
+}
+
+.message-input {
+    width: 650px;
+    height: 200px;
+    margin: 40px 5px 20px 90px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+div .button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 153px;
+    width: 650px;
+    
+    
+    }
+
+
+
+.submit-button {
+    
+    width: 100px;
+    height: 40px;
+    margin: 10px 0; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  /*   right: -50% */
+} 
+
+.footer {
+    height: 100px;
+   
 }
