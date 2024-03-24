@@ -1,3 +1,146 @@
+
+/* /* .header {
+    /* position: fixed;   */
+/*         top: 0;
+    } // Add this closing curly brace
+    width: auto; 
+    height: 120px;
+    z-index: 100;
+ */
+ */
+
+/* .menu {
+    position: fixed;  
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    list-style-type: none;
+    font-weight: bold;
+    background-color: rgba(165, 157, 157, 1);
+    top: 0;
+    width: 100%; 
+    height: 140px;
+    z-index: 100;
+} */
+
+.menu .menu_link {
+    /* position: fixed;   */
+    top: 0;
+    width: 100vh; 
+    height: 120px;
+    z-index: 100;
+}
+
+
+ul.menu {
+    position: fixed;  
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 0;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    width: 100%; 
+   /*  height: 120px; */
+    z-index: 100;
+}
+
+.menu .menu_link {
+    color: #000000;
+    font-size: 28px;
+    margin: 0 40px 0 20px; /* Измените это свойство */
+    list-style-type: none;
+}
+
+.menu .menu_item, .menu .menu_item_kontakt {
+    display: inline-block;
+   /*  margin-left: 20px; */
+}
+
+.menu .menu_item_kontakt {
+    margin-left: 50px;
+    margin-right: autox; 
+} 
+
+li.header_logo {
+    margin: 0 auto 0 auto; /* Добавьте это свойство */
+}
+
+.header_logo img {
+    width: 300px;
+    height: auto;
+}
+
+/* .header:hover .header_logo img {
+    transform: scale(1);
+}
+ */
+.button {
+    display: inline-block;
+    background-color: #2155a3a1; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 8px 16px;  /* Отступы внутри кнопки */
+   /*  margin: 0 0 0 5px; */  /* Отступы вокруг кнопки */
+    border: none; /* Убираем рамку */
+    cursor: pointer; /* Делаем курсор в виде руки при наведении */
+    width: auto; /* Ширина кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    /* transition-duration: 0.4s;  *//* Длительность эффекта наведения */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    border-radius: 5px; /* Добавьте это свойство */
+}
+
+.button:hover {
+    background-color: 2155a3a1; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+    list-style-type: none;
+}
+    
+
+
+
+
+.menu .menu_item_kontakt {
+    margin-left: auto;  
+    margin-right: 90px;
+} 
+
+.header_logo {
+    margin: 0 450px 10px 50px; /* Добавьте это свойство */
+}
+
+.header_logo img {
+    width: auto;
+    height: 120px;
+}
+
+/* .header:hover .header_logo img {
+    transform: scale(1);
+}
+ */
+.button {
+    display: inline-block;
+    background-color: #2155a3a1; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 8px 16px;  /* Отступы внутри кнопки */
+   /*  margin: 0 0 0 5px; */  /* Отступы вокруг кнопки */
+    border: none; /* Убираем рамку */
+    cursor: pointer; /* Делаем курсор в виде руки при наведении */
+    width: auto; /* Ширина кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    /* transition-duration: 0.4s;  *//* Длительность эффекта наведения */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    border-radius: 5px; /* Добавьте это свойство */
+}
+
+.button:hover {
+    background-color: 2155a3a1; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
 .allpagekontakt {
     display: flex;
     background-color: #f4f4f4;
@@ -10,7 +153,7 @@
 
 div.kontaktformall {
     display: flex;
-    margin: 200px 20px 300px 600px;
+    margin: 200px 20px 300px 450px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -35,11 +178,11 @@ div .kontaktinfo {
 
 div.kontakt-info {
     display: flex; 
-    margin: 170px 0 0 50px;
+    margin: 50px 0 0 50px;
     justify-content: center; 
     align-items: center;
-    width: 450px;
-    height: 250px;
+    width: 380px;
+    height: 180px;
     background-color: #ffffff;
     font-size: 16px;
     font-weight: bold;
@@ -59,6 +202,7 @@ div.kontakt-form {
 .name {
     display: flex;
     align-items: center;
+    margin-right: 85px;
 }
 
 .name-label, .name-input {
@@ -88,9 +232,9 @@ div.kontakt-form {
 .kontakt-info {
     /* display: flex; */
     margin: 10px 0 200px 50px; 
-    width: 330px;
-    height: 230px; 
-    padding: 20px;
+    width: 250px;
+    height: 150px; 
+    padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -102,10 +246,10 @@ div.kontakt-form {
 
 
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
-    padding:  0 0 20px 0;
+    padding:  0 0 10px 0;
     align-items: center;
     text-align: center;
 
@@ -130,34 +274,52 @@ h2 {
 }
 
 .input-row .name-label {
-    width: 200px;
-    height: 10px; 
+    width: 150px;
+    height: 40px; 
     margin: 5px 5px 0 0;
 }
 
 .input-row .name-label, .input-row .email-label, .input-row {
     display: flex;
     align-items: center;
+   
+}
+
+.input-row  {
+    display: flex;
+    align-content: center;
+    justify-content: spase-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: auto;
 }
 
 .input-row .email-label {
-    width: 150px;
-    height: 10px; 
+    width: 125px;
+    height: 40px; 
     margin-left: 50px;
-    margin: 5px 5px 0 50px;
+    margin: 5px 5px 0 0;
 }
 
 
 
-.input-row .name-input, .input-row .email-input {
-    width: 400px;
+.input-row .name-input,  {
+    width: 219px;
     height: 40px;
-    padding: 0 10px;
-    margin: 5px 5px 0 0px;
+    
+    margin: 5px 5px 0 auto;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+.input-row .email-input, .input-row .name-input {
+    width: 219px;
+    height: 40px;
+   
+    margin: 5px 5px 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 
 
@@ -169,13 +331,13 @@ h2 {
 
 }
 .message-label {
-    width: 75px;
+    width: 26px;
     height: 40px; 
     margin: 130px 38px 0 0;
 }
 
 .message-input {
-    width: 1300px;
+    width: 650px;
     height: 200px;
     margin: 40px 5px 20px 90px;
     border: 1px solid #ccc;
@@ -187,8 +349,10 @@ div .button-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 153px;
+    width: 650px;
     
-    margin-left: 200px;
+    
     }
 
 
